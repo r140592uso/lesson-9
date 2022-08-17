@@ -1,0 +1,141 @@
+@media (max-width:1150px){
+    .section3photoes{
+        flex-direction: column;
+        width: 60%;
+        margin: 0 auto;
+    }
+    .footer{
+        flex-wrap: wrap;
+    }
+    .footer1, .footer2, .footer3, .footer4{
+        width: 35%;
+    }
+    .section3text, .section2text1, .section2text2{
+        margin-left:30px;
+    }
+}
+@media (max-width:1050px){
+    .listitem{
+        margin: 0 20px 0 0;}
+}
+@media (max-width:870px){
+    .section3photoes{
+        width: 80%;
+    }
+    .footer{
+        flex-wrap: wrap;
+    }
+    .footer1, .footer2, .footer3, .footer4{
+        width: 80%;
+    }    
+    .listitem{
+        margin: 0 15px 0 0;}
+}
+@media (max-width:550px){
+    .listitem{
+        display: none;
+    }
+    .burger{
+        display: block;
+    }
+    .section2links{
+        flex-direction: column;
+    }
+    
+}
+
+/*
+.section3{    
+    max-width: 2000px;
+    width: 100%;
+    margin: 56px auto 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+.section3text{    
+    max-width: 1088px;
+    width: 100%;
+    margin: 56px auto;   
+}
+.section3text2{
+    color: #000000;
+    font-size: 42px;
+    width: 378px;
+}
+.section3photoes{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+@media (max-width:1300px){
+    .navigation{
+        margin: 67px 80px 70px 132px;        
+    }    
+    .section1{
+        display: block;
+        margin: 0 auto;
+    }
+    .section1left{
+        display: block;
+        margin: 0 auto;
+        width: 800px;
+        height: 370px;
+        text-align: center;
+    }
+    .section1text2{
+        margin: 40px;
+    }
+    .section1right{
+        display: block;
+        margin: 0 auto;
+        height: 600px;
+    }
+    .section1textdiv{
+        margin: 0 auto;
+    }
+}
+    
+@media (max-width:1240px){
+    .section2toprow{
+        width: 80%;
+        margin: 0 auto;        
+    }
+    .section2block {
+        width: 45%;
+        margin: 0 auto;
+    }    
+}
+
+@media (max-width:900px) {
+    .navigation{
+        margin: 30px ;
+    }
+    .list{
+        display: none;
+    }
+    .burger{
+        display: block;
+        font-size: 30px;
+        color: orangered;
+    }    
+    .section1rightimage,
+    .section1right,
+    .section1text1,
+    .section1left,
+    .section1text2{
+        width: 90%;
+        height: auto;
+        margin: 20px auto;
+    }    
+    @media (max-width:600px){
+    .section2toprow{
+        width: 80%;
+        margin: 0 auto;        
+    }
+    .section2block {
+        width: 95%;
+        margin: 0 auto;
+    }  
+    }*/
